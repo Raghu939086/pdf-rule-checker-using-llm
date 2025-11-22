@@ -28,37 +28,6 @@ This project was built as part of the NIYAMR AI Full-Stack Developer Assignment.
 ✔ Display results in a frontend table
 ✔ Clean, modular, and scalable folder structure
 
-### 🏗️ Project Folder Structure
-pdf-rule-checker-using-llm/
-│
-├── niyamr-backend/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── openai.js
-│   │   ├── controllers/
-│   │   │   └── pdfController.js
-│   │   ├── routes/
-│   │   │   └── pdfRoutes.js
-│   │   ├── services/
-│   │   │   ├── llmService.js
-│   │   │   └── pdfExtractor.js
-│   │   └── server.js
-│   ├── .gitignore
-│   └── package.json
-│
-└── niyamy-frontend/
-    ├── src/
-    │   ├── pages/
-    │   │   └── Home.jsx
-    │   ├── components/
-    │   │   ├── UploadPdf.jsx
-    │   │   ├── RulesForm.jsx
-    │   │   └── ResultTable.jsx
-    │   ├── App.jsx
-    │   └── styles/main.css
-    ├── public/
-    ├── package.json
-    └── vite.config.js
 
 ### Frontend Setup (React + Vite)
 1️⃣ Navigate to frontend folder:
